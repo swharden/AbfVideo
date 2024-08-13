@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <PlatformTarget>x86</PlatformTarget>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ABFsharp" Version="0.6.4" />
+        <PackageReference Include="FFMpegCore" Version="5.1.0" />
+        <PackageReference Include="MP3Sharp" Version="1.0.5" />
+        <PackageReference Include="ScottPlot" Version="5.0.37" />
+    </ItemGroup>
+
+</Project>
