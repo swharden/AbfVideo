@@ -29,7 +29,7 @@ internal static class VideoGenerator
         {
             Console.WriteLine($"\rRendering frame {i + 1} of {frameCount}");
 
-            double viewLeft = i / frameRate;
+            double viewLeft = i / frameRate + startTimeSec;
             double viewRight = viewLeft + viewWidthSec;
             plot.Axes.SetLimitsX(viewLeft, viewRight);
 
